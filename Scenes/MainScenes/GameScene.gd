@@ -83,5 +83,6 @@ func verify_and_build():
 		var new_tower = load("res://Scenes/Turrets/" + built_type + ".tscn").instance()
 		new_tower.position = build_location
 		new_tower.built = true
+		new_tower.type = built_type
 		map_node.get_node("TowerExclusion").add_child(new_tower, true)
 		map_node.get_node("TowerExclusion").set_cellv(build_tile, 6)
