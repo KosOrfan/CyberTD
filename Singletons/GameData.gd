@@ -11,6 +11,17 @@ var tower_data = {
 		"damage": 50,
 		"rof": 3,
 		"range": 550,
-		"category": "Missile"
+		"category": "Rocket"
+	},
+	"Waves":{
+		"total": 5,
+		"timeout": 1.0,
+		1: [
+			["BlueTank", 1.0], 
+			["BlueTank", 1.0], 
+			["BlueTank", 1.0], 
+			["BlueTank", 1.0], 
+			["BlueTank", 1.0]
+			]
 	}
 }
